@@ -20,7 +20,7 @@ View and edit images directly in Pulsar. A feature-rich image viewer with suppor
 
 ## Installation
 
-To install `image-editor` search for [image-editor](https://web.pulsar-edit.dev/packages/image-editor) in the Install pane of the Pulsar settings or run `ppm install image-editor`. Alternatively, you can run `ppm install asiloisad/pulsar-image-editor` to install a package directly from the GitHub repository.
+To install `image-editor` search for [image-editor](https://web.pulsar-edit.dev/packages/image-editor) in the Install pane of the Pulsar settings or run `ppm install image-editor`. Alternatively, you can run `ppm install asiloisad-pulsar/image-editor` to install a package directly from the GitHub repository.
 
 ## Commands
 

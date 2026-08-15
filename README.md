@@ -2,7 +2,7 @@
 
 View and edit images directly in Pulsar. A feature-rich image viewer with support for cropping, rotation, color adjustments, filters, and more.
 
-![view](https://github.com/asiloisad/pulsar-image-editor/blob/master/assets/view.png?raw=true)
+![view](https://github.com/asiloisad-pulsar/image-editor/blob/master/assets/view.png?raw=true)
 
 ## Features
 
@@ -15,8 +15,8 @@ View and edit images directly in Pulsar. A feature-rich image viewer with suppor
 - **SVG support**: View SVG images with automatic viewBox dimension handling (read-only).
 - **Pending tab toggle**: Toggle the pending state of the editor tab.
 - **Undo/redo**: Full history with viewport preservation.
-- **Navigation panel**: Browse folder images via [navigation-panel](https://github.com/asiloisad/pulsar-navigation-panel).
-- **API for packages**: Other packages can open images from data URLs without saving to disk. Used by [hydrogen-next](https://github.com/asiloisad/pulsar-hydrogen-next) to display plot outputs.
+- **Navigation panel**: Browse folder images via [navigation-panel](https://github.com/asiloisad-pulsar/navigation-panel).
+- **API for packages**: Other packages can open images from data URLs without saving to disk. Used by [hydrogen-next](https://github.com/asiloisad-pulsar/hydrogen-next) to display plot outputs.
 
 ## Installation
 
@@ -89,7 +89,7 @@ Commands available in `.image-editor`:
 
 ## Provided Service `navigation-adapter`
 
-Exposes the folder image list to [navigation-panel](https://github.com/asiloisad/pulsar-navigation-panel). When an image is open, the panel lists all images in the same folder. Clicking an entry loads that image in the same editor.
+Exposes the folder image list to [navigation-panel](https://github.com/asiloisad-pulsar/navigation-panel). When an image is open, the panel lists all images in the same folder. Clicking an entry loads that image in the same editor.
 
 In your `package.json`:
 
@@ -116,7 +116,7 @@ consumeNavigationAdapter(adapter) {
 
 ## Provided Service `image-editor`
 
-Allows other packages to open images directly from data URLs without saving to disk. Used by [hydrogen-next](https://github.com/asiloisad/pulsar-hydrogen-next) to display plot outputs.
+Allows other packages to open images directly from data URLs without saving to disk. Used by [hydrogen-next](https://github.com/asiloisad-pulsar/hydrogen-next) to display plot outputs.
 
 In your `package.json`:
 

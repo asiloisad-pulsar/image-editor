@@ -1,7 +1,7 @@
 {
   "name": "image-editor",
   "description": "View and edit images directly in Pulsar",
-  "repository": "https://github.com/asiloisad/pulsar-image-editor",
+  "repository": "https://github.com/asiloisad-pulsar/image-editor",
   "version": "1.2.2",
   "license": "MIT",
   "engines": {

@@ -2,6 +2,9 @@
 
 View and edit images directly in Pulsar. A feature-rich image viewer with support for cropping, rotation, color adjustments, filters, and more.
 
+> [!NOTE]
+> This package is in maintenance mode. If you use [Lumine](https://github.com/lumine-code/lumine), you may be interested in [image-editor](https://github.com/lumine-code/image-editor).
+
 ![view](https://github.com/asiloisad-pulsar/image-editor/blob/master/assets/view.png?raw=true)
 
 ## Features
